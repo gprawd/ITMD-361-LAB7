@@ -3,7 +3,7 @@ function init(){
 
   button.addEventListener('click', function(){
     var fc = document.getElementById('entryinput')
-    alert(fc.value);
+    alert('Gregory Prawdzik: ' + fc.value);
     });
 
 
