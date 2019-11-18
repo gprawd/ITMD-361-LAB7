@@ -1,7 +1,10 @@
 function init(){
-  alert();
+  var button = document.getElementById('entrybutton'); 
 
-
+  button.addEventListener('click', function(){
+    var fc = document.getElementById('entryinput')
+    alert(fc.value);
+    });
 
 
 
